@@ -5,9 +5,7 @@ def key_for_min_value(name_hash)
   i = 0
   
   name_hash.each do |key, value|
-    if value > 0 
-      i +=1 
-      elsif key == key
+    if value > 0
       key
     end
   end
