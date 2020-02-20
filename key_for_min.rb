@@ -5,10 +5,10 @@ def key_for_min_value(name_hash)
   name = ""
   
   name_hash.collect do |key, value|
-    if value <= 1
+    if value <= 10
       name = key
-    else
-      name = nil
+    elsif key == nil
+      nil
     end
   end
   name
