@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |name, value|
-    if value <= 1 && name.start_with?("a")
+    if value <= 1 && name.start_with("a")
       name
     end
   end
