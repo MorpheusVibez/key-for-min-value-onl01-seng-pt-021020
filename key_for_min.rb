@@ -9,6 +9,6 @@ def key_for_min_value(name_hash)
       name
     end
     name[2] << key_name
+    key_name
   end
-  key_name
 end
