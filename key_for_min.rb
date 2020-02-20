@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-  key = ""
+  key = []
   
   name_hash.collect do |name, value|
     if value < 2 do
