@@ -6,5 +6,8 @@ def key_for_min_value(name_hash)
   key = ""
   
   name_hash.collect do |name, value|
-    while i < 0 
+    if value < 2 do
+      name
+    end
+  end
 end
